@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NegativeLogInTestSuite]">
+  <parameter name="password" value="SuperSecretPassword!"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="expectedMessage" value="Your username is invalid!"/>
+  <parameter name="username" value="incorrectUsername"/>
+  <test name="NegativeUsernameTest-CH(failed)">
+    <parameter name="password" value="SuperSecretPassword!"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="expectedMessage" value="Your username is invalid!"/>
+    <parameter name="username" value="incorrectUsername"/>
+    <classes>
+      <class name="com.qa.newframework.TC001">
+        <methods>
+          <include name="TC001_NegativeTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.newframework.TC001 -->
+    </classes>
+  </test> <!-- NegativeUsernameTest-CH(failed) -->
+</suite> <!-- Failed suite [NegativeLogInTestSuite] -->

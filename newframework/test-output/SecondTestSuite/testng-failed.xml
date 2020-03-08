@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SecondTestSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="TestcaseTestngTest1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.newframework.BaseTestClass">
+        <methods>
+          <include name="TC001_NegativeTest"/>
+        </methods>
+      </class> <!-- com.qa.newframework.BaseTestClass -->
+    </classes>
+  </test> <!-- TestcaseTestngTest1(failed) -->
+</suite> <!-- Failed suite [SecondTestSuite] -->

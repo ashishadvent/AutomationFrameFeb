@@ -1,0 +1,18 @@
+
+
+<suite name="FirstTestSuite" verbose="1">
+    
+    <test name="NegativeTestcaseTestngTest1"> 
+      <parameter name="username" value="incorrectUsername"></parameter>
+      
+      <parameter name="password" value="SuperSecretPassword!"></parameter> 
+      
+      <parameter name="expectedMessage" value="Your username is invalid!"></parameter>
+      
+      <parameter name="browser" value="chrome"></parameter>        
+       <classes>
+			<class name="com.qa.newframework.TC001">
+			</class>
+		</classes>
+    </test>
+</suite>
