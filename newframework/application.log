@@ -1,0 +1,5 @@
+[main] 15:34:59,743 INFO  [NegativeTestcaseTestngTest1] Create driver: chrome
+[main] 15:34:59,745 INFO  [NegativeTestcaseTestngTest1] Creating WebDriver object in BrowserDriverFactory Classchrome
+[main] 15:35:02,491 INFO  [NegativeTestcaseTestngTest1] Starting negativeTest
+[main] 15:35:05,700 INFO  [NegativeTestcaseTestngTest1] Main page is opened.
+[main] 15:35:07,716 INFO  [NegativeTestcaseTestngTest1] Closing the driver

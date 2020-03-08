@@ -15,6 +15,7 @@
         <methods>
           <include name="TC001_NegativeTest" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="setUp" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.qa.newframework.TC001 -->
     </classes>

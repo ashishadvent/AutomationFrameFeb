@@ -7,6 +7,11 @@ package com.qa.pom;
  * @author akesarwa
  *
  */
-public class POMPage1 {
+public class BasePageObject {
+	
+	public BasePageObject() {
+		
+	}
+	
 
 }
